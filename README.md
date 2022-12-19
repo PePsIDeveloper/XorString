@@ -1,2 +1,12 @@
-# XorString
-The source code for a semi-complex xor string encryption with additional support for watermarks is available in this git repository. For instance, your key would be available inside of a disassembler like IDA if you used the string "std::string key = "my secure key 123";" in your C++ application, but it would be more difficult if you used a xor string encryption.
+# XorString Encryption 
+Have you ever written a software using a secret token that you didn't want anyone to see? Without any string encryption, your "secret" token is actually not hidden because anyone with a disassembler could dump all the strings to find it.
+
+ **Example of what someone would see using/not using a XorString Enc.**
+ 
+
+ - **Not using** -> pepsi wasn't here yo.
+ - **Using** ->   AUA0MIkCU:C
+
+
+
+***
