@@ -1,4 +1,5 @@
 # XorString Encryption 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
 XOR encryption is a kind of encryption used to safeguard data. It works by pairing a message (the data you wish to secure) with a secret key (a series of numbers or letters that only you know). This combination produces a coded message that is extremely difficult for anybody else to read or interpret.
 
 This is how it works:
